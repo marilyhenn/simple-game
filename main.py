@@ -21,4 +21,6 @@ while True:
     if d == 1:
         e = b + c
         print(e)
-
+    elif d == 0:
+        e = b - c
+        print(e)
