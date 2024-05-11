@@ -2,7 +2,7 @@ import random
 
 a = {
     "player": 0,
-    "bot" : 0
+    "bot": 0
 }
 
 def even(num: int):
@@ -17,3 +17,5 @@ while True:
     c = random.randint(100, 1000)
     if even(c):
         continue
+    d = random.randint(0, 1)
+
