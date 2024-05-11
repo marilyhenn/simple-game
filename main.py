@@ -18,4 +18,7 @@ while True:
     if even(c):
         continue
     d = random.randint(0, 1)
+    if d == 1:
+        e = b + c
+        print(e)
 
