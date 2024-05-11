@@ -5,22 +5,25 @@ a = {
     "bot": 0
 }
 
+
 def even(num: int):
-    if num%2 == 0:
+    if num % 2 == 0:
         return False
     else:
         return True
+
+
 while True:
-    b = random.randint(100, 1000)
-    if even(b):
+    first = random.randint(100, 1000)
+    if even(first):
         continue
-    c = random.randint(100, 1000)
-    if even(c):
+    second = random.randint(100, 1000)
+    if even(second):
         continue
-    d = random.randint(0, 1)
-    if d == 1:
-        e = b + c
-        print(e)
-    elif d == 0:
-        e = b - c
-        print(e)
+    plus_minus = random.randint(0, 1)
+    if plus_minus == 1:
+        result = first + second
+        print(result)
+    elif plus_minus == 0:
+        result = first - second
+        print(result)
