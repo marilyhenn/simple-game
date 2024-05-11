@@ -1,6 +1,6 @@
 import random
 
-p_b = {
+p_and_b = {
     "player": 0,
     "bot": 0
 }
