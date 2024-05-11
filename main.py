@@ -27,3 +27,4 @@ while True:
     elif plus_minus == 0:
         result = first - second
         print(result)
+
